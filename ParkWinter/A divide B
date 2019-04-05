@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	double A, B;
+	
+	cin >> A >>  B;
+	cout.precision(10);
+	cout << A/B << endl;
+	return 0;
+
+	
+}
+
+
+/*
+double 형으로 계산하는 것도 맞지만 소수점 6자리 밖에 출력 안됨.
+cout.precision(소수점값); 사용
+
+double A, B;
+cin >> A >> B;
+cout << setprecision(10) << A/B;
+return 0;
+
+*/
